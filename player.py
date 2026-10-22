@@ -182,4 +182,4 @@ def animate(sock, title):
 
         output.append("\n")
         if duration and duration > 0:
-            fraction = min(1.0, max(0.0, position / durat
+            fraction = min(1.0, max(0.0, position / duration))
